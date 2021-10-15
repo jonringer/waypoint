@@ -12,6 +12,7 @@ $button-shadow: 0 3px 2px rgba(var(--shadow), 0.2);
 }
 
 :root {
+  --monospace: ui-monospace, 'Menlo', monospace;
   --brand: #{dehex($brand-color)};
   --background: #{dehex(color.$white)};
   --text: #{dehex(color.$black)};
@@ -23,8 +24,8 @@ $button-shadow: 0 3px 2px rgba(var(--shadow), 0.2);
   --outline: #{dehex(color.$ui-gray-300)};
   --card: #{dehex(color.$white)};
   --panel: #{dehex(color.$ui-cool-gray-050)};
-  --badge: #{dehex(color.$blue-050)};
-  --badge-text: #{dehex(color.$blue-500)};
+  --badge: #{dehex(color.$ui-gray-200)};
+  --badge-text: #{dehex(color.$ui-gray-800)};
   --shadow: #{dehex(color.$ui-cool-gray-900)};
   --focus-ring: #{dehex(color.$blue-500)};
   --success: #{dehex(color.$green-050)};
