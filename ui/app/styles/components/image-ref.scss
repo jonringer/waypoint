@@ -3,8 +3,9 @@
   align-items: center;
 
   &__tag {
-    background: rgb(var(--tag-background));
-    color: rgb(var(--text-muted));
+    background: rgb(var(--badge-neutral));
+    color: rgb(var(--badge-neutral-text));
+
     border-radius: 2px;
     padding: 0 4px;
     margin-left: 7px;
